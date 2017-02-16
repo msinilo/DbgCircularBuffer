@@ -13,7 +13,7 @@ class DbgCircularBuffer
 {
 public:
 	explicit DbgCircularBuffer(size_t maxSize = 0)
-	: mMaxSize(maxSize),
+	:	mMaxSize(maxSize),
 		mCount(0),
 		mStartIndex(0),
 		mWriteIndex(0)
